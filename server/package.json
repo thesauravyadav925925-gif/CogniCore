@@ -1,0 +1,45 @@
+{
+  "name": "cognicore-server",
+  "version": "0.2.0",
+  "description": "CogniCore - Domain-Agnostic Enterprise AI Copilot (Backend)",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node --test",
+    "sample-data": "node scripts/generate-sample-data.js",
+    "benchmark": "node benchmark/run.js --mode=tools",
+    "benchmark:llm": "node benchmark/run.js --mode=llm"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "mammoth": "^1.12.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.24.4",
+    "node-sql-parser": "^4.18.0",
+    "pdfjs-dist": "^3.11.174",
+    "pdfkit": "^0.20.2",
+    "pg": "^8.23.0",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "optionalDependencies": {
+    "nodemailer": "^6.9.14"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true,
+    "canvas@2.11.2": true
+  }
+}

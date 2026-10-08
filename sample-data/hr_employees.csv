@@ -1,0 +1,161 @@
+employee_id,employee_name,department,designation,salary,joining_date,status
+1001,Rohan Reddy,Engineering,Manager,64746,2020-07-09,Active
+1002,Meera Singh,Sales,Lead,62086,2022-06-04,Active
+1003,Rahul Iyer,Finance,Associate,55338,2018-07-24,Active
+1004,Rohan Patel,Finance,Manager,61277,2020-12-05,Resigned
+1005,Sneha Menon,Sales,Senior,48482,2024-09-13,Active
+1006,Sana Nair,HR,Lead,64467,2022-06-23,Resigned
+1007,Meera Nair,Finance,Manager,84096,2023-11-27,On Leave
+1008,Rahul Sharma,Sales,Lead,9800000,2023-08-22,Active
+1009,Sneha Das,Sales,Lead,39909,2019-11-11,Active
+1010,Sana Sharma,Finance,Manager,64847,2019-12-22,Active
+1011,Ishaan Singh,Finance,Senior,46855,2024-07-12,Active
+1012,Meera Menon,HR,Associate,64953,2022-10-15,Active
+1013,Pooja Patel,HR,Senior,59589,2024-02-28,On Leave
+1014,Vikram Menon,Support,Lead,28259,2019-08-28,Active
+1015,Diya Nair,Support,Associate,48674,2021-07-21,Active
+1016,Nikhil Nair,Engineering,Senior,115192,2021-07-15,Resigned
+1017,Arjun Rao,HR,Associate,63037,2018-03-19,Active
+1018,Ananya Singh,Engineering,Manager,79225,2023-01-22,Active
+1019,Sana Nair,Finance,Lead,72044,2021-12-28,Active
+1020,Kavya Iyer,Finance,Associate,46189,2020-04-03,On Leave
+1021,Rohan Singh,HR,Manager,,2020-09-12,Active
+1022,Rohan Singh,Finance,Senior,50217,2021-06-16,Resigned
+1023,Tarun Reddy,HR,Lead,53239,2021-03-14,Active
+1024,Nikhil Das,HR,Manager,51035,2021-12-28,Active
+1025,Ananya Menon,Sales,Lead,55794,2022-02-08,On Leave
+1026,Vikram Iyer,Sales,Manager,63929,2024-11-12,Active
+1027,Ananya Sharma,Support,Senior,48345,2025-08-02,Active
+1028,Kavya Patel,Finance,Senior,88521,2019-02-17,Active
+1029,Kabir Das,Finance,Lead,66638,2024-05-24,Active
+1030,Priya Menon,Engineering,Manager,72423,2023-08-09,Active
+1031,Vikram Rao,Support,Lead,25860,2022-11-06,Active
+1032,Meera Iyer,Sales,Lead,35444,2020-01-02,On Leave
+1033,Sneha Das,Finance,Lead,87032,2025-12-22,On Leave
+1034,Arjun Das,Finance,Manager,69225,2025-08-27,Resigned
+1035,Tarun Rao,Support,Lead,40947,2018-07-25,Active
+1036,Tarun Sharma,Engineering,Senior,78062,2019-07-10,Active
+1037,Vikram Patel,HR,Manager,54554,2023-05-02,Resigned
+1038,Sana Rao,Finance,Senior,45372,2025-03-22,Active
+1039,Nikhil Patel,Finance,Manager,79685,2023-08-04,Active
+1040,Rahul Gupta,HR,Lead,58581,2022-08-24,On Leave
+1041,Diya Reddy,Support,Manager,26816,2023-09-26,Active
+1042,Uma Nair,Sales,Associate,51026,2022-02-03,On Leave
+1043,Sana Gupta,Finance,Senior,88868,2023-10-28,Active
+1044,Tarun Das,Finance,Senior,66398,2019-06-22,Active
+1045,Vikram Nair,Support,Lead,30911,2024-11-02,On Leave
+1046,Rohan Iyer,Support,Manager,26009,2022-11-22,Active
+1047,Uma Patel,Sales,Senior,36713,2021-05-08,Active
+1048,Rahul Patel,Sales,Associate,51272,2020-01-01,Active
+1049,Meera Iyer,Sales,Senior,37134,2019-10-14,Active
+1050,Kabir Sharma,Support,Manager,40319,2023-03-23,Active
+1051,Arjun Iyer,Support,Senior,35917,2021-12-27,Active
+1052,Sneha Reddy,Engineering,Manager,64935,2022-08-12,Resigned
+1053,Rahul Singh,HR,Lead,60057,2022-02-25,Active
+1054,Ananya Nair,Finance,Lead,55810,2023-09-23,Active
+1055,Diya Das,Support,Associate,35355,2021-02-15,On Leave
+1056,Rahul Singh,HR,Associate,62580,2018-09-03,Resigned
+1057,Ishaan Singh,Sales,Manager,66182,2025-12-19,Active
+1058,Nikhil Iyer,Support,Lead,40487,2023-04-01,Resigned
+1059,Meera Gupta,HR,Lead,64351,2022-03-14,Active
+1060,Uma Das,HR,Manager,33344,2022-12-13,Active
+1061,Rohan Iyer,Sales,Manager,47295,2025-01-23,Active
+1062,Arjun Rao,Finance,Manager,52161,2019-03-17,On Leave
+1063,Sana Iyer,Sales,Lead,74195,2025-10-18,Active
+1064,Aarav Iyer,Finance,Senior,57195,2021-02-19,Active
+1065,Aarav Das,Sales,Associate,65644,2024-12-14,Active
+1066,Sneha Nair,Support,Lead,30754,2023-04-11,Resigned
+1067,Vikram Menon,Sales,Associate,72859,2019-02-03,Active
+1068,Nikhil Reddy,Sales,Lead,52736,2023-02-23,Active
+1069,Kavya Das,Engineering,Senior,99262,2020-04-20,On Leave
+1070,Meera Sharma,Sales,Manager,69305,2023-03-20,Active
+1071,Sneha Gupta,Engineering,Associate,118451,2019-05-08,On Leave
+1072,Ananya Menon,HR,Manager,59895,2020-09-25,Active
+1073,Nikhil Menon,Support,Senior,44868,2023-10-20,Active
+1074,Diya Gupta,Sales,Manager,65526,2019-07-03,On Leave
+1075,Rahul Sharma,HR,Associate,59959,2022-04-15,On Leave
+1076,Ananya Sharma,Engineering,Senior,108331,2018-04-26,Active
+1077,Kabir Rao,HR,Associate,36835,2022-02-25,On Leave
+1078,Arjun Sharma,Sales,Senior,75244,2018-02-01,Active
+1079,Nikhil Iyer,Finance,Manager,79159,2022-07-14,Resigned
+1080,Aarav Das,Engineering,Associate,81704,2018-12-02,Resigned
+1081,Arjun Patel,HR,Lead,39059,2024-08-03,Active
+1082,Rahul Reddy,Support,Manager,29519,2021-07-01,Resigned
+1083,Aarav Patel,Finance,Lead,59160,2019-12-06,Active
+1084,Aarav Iyer,Sales,Manager,69995,2020-06-27,Active
+1085,Tarun Menon,Finance,Senior,75954,2022-11-05,Active
+1086,Diya Iyer,Engineering,Senior,119976,2024-02-19,Active
+1087,Rohan Patel,Finance,Manager,54529,2023-05-11,Active
+1088,Aarav Rao,Sales,Lead,77262,2021-11-24,Active
+1089,Kabir Iyer,Finance,Associate,46601,2018-11-21,On Leave
+1090,Ananya Patel,HR,Manager,42368,2019-12-13,Active
+1091,Aarav Das,Engineering,Associate,106179,2021-03-06,Active
+1092,Ananya Menon,Support,Lead,32765,2023-04-17,Active
+1093,Kabir Das,HR,Manager,42340,2021-06-10,Active
+1094,Ishaan Patel,HR,Manager,59772,2024-11-18,Active
+1095,Pooja Patel,Support,Lead,35602,2024-12-06,Active
+1096,Ananya Menon,Finance,Manager,73438,2025-05-07,Active
+1097,Rohan Gupta,Engineering,Associate,105728,2022-05-02,On Leave
+1098,Meera Gupta,Sales,Associate,54797,2021-01-06,Resigned
+1099,Rahul Gupta,Support,Manager,34599,2023-12-09,Resigned
+1100,Rahul Nair,Support,Associate,30014,2021-01-13,Active
+1101,Sneha Gupta,Support,Senior,31569,2023-12-23,Active
+1102,Priya Patel,Engineering,Senior,90983,2020-10-19,Active
+1103,Diya Iyer,Finance,Lead,70549,2024-09-17,Resigned
+1104,Meera Reddy,Engineering,Manager,107611,2021-08-27,Active
+1105,Uma Nair,Finance,Senior,55183,2019-08-23,On Leave
+1106,Nikhil Sharma,Sales,Associate,50880,2022-11-25,Active
+1107,Sana Nair,Engineering,Manager,72750,2021-04-25,On Leave
+1108,Tarun Rao,Finance,Manager,69830,2022-11-28,Active
+1109,Sneha Reddy,Finance,Lead,62774,2019-11-16,Resigned
+1110,Priya Gupta,Finance,Lead,42998,2021-11-04,Active
+1111,Ananya Sharma,Finance,Associate,85252,2020-01-11,Active
+1112,Sana Nair,Sales,Manager,43086,2024-04-09,Active
+1113,Rohan Das,Engineering,Manager,77876,2018-02-15,Active
+1114,Rahul Patel,Sales,Manager,58717,2021-06-24,Active
+1115,Diya Das,Sales,Manager,35793,2024-08-03,Active
+1116,Uma Reddy,Sales,Senior,74141,2022-09-01,Active
+1117,Kabir Reddy,Sales,Senior,63659,2022-04-19,On Leave
+1118,Nikhil Singh,Sales,Lead,37165,2019-03-27,Resigned
+1119,Rohan Nair,Sales,Manager,65424,2020-07-14,Active
+1120,Kabir Das,Finance,Associate,44613,2025-09-23,Active
+1121,Rohan Sharma,Support,Associate,32890,2023-05-06,Active
+1122,Sana Nair,HR,Associate,50490,2023-05-18,Active
+1123,Uma Sharma,HR,Senior,32041,2023-11-19,On Leave
+1124,Vikram Sharma,Support,Associate,44871,2023-10-23,Active
+1125,Ananya Rao,HR,Lead,34800,2025-06-24,Resigned
+1126,Rohan Rao,Engineering,Lead,112414,2022-10-21,On Leave
+1127,Sneha Sharma,Engineering,Manager,111708,2021-09-09,Active
+1128,Vikram Patel,HR,Senior,39902,2019-06-10,Resigned
+1129,Rahul Menon,Support,Lead,41545,2018-11-15,Active
+1130,Tarun Iyer,HR,Associate,58627,2018-06-01,Active
+1131,Kabir Patel,Support,Associate,34334,2018-02-26,Active
+1132,Uma Reddy,Engineering,Senior,62648,2019-04-18,Active
+1133,Sana Rao,Finance,Senior,84847,2021-11-09,On Leave
+1134,Arjun Reddy,Engineering,Lead,113388,2020-01-21,Active
+1135,Rohan Singh,HR,Associate,57381,2023-09-02,Active
+1136,Ananya Gupta,Support,Manager,34757,2019-07-18,On Leave
+1137,Sneha Iyer,HR,Manager,35026,2020-03-04,Active
+1138,Pooja Menon,Engineering,Manager,88330,2025-03-21,Active
+1139,Rohan Iyer,HR,Lead,51951,2018-09-21,On Leave
+1140,Ananya Menon,Engineering,Lead,119676,2020-06-28,Active
+1141,Nikhil Rao,HR,Manager,48065,2023-02-09,Active
+1142,Arjun Iyer,Support,Lead,33958,2018-04-27,On Leave
+1143,Uma Menon,HR,Associate,48097,2020-12-05,Active
+1144,Kabir Das,HR,Manager,52854,2023-02-18,Active
+1145,Kavya Iyer,Finance,Lead,85012,2018-06-05,Active
+1146,Arjun Iyer,Support,Manager,46432,2019-01-14,Active
+1147,Aarav Menon,Support,Manager,37946,2018-10-12,Resigned
+1148,Sana Das,Sales,Lead,73097,2018-04-13,Resigned
+1149,Sneha Patel,Sales,Associate,51432,2024-07-13,Resigned
+1150,Uma Reddy,Finance,Associate,50423,2020-05-15,Active
+1151,Sneha Rao,Sales,Manager,72991,2025-10-25,Resigned
+1152,Ishaan Das,Sales,Senior,77067,2019-07-07,Active
+1153,Aarav Patel,Finance,Lead,54779,2018-03-17,On Leave
+1154,Diya Das,Support,Senior,31489,2022-06-22,Resigned
+1155,Rahul Rao,Support,Lead,43699,2018-05-12,Active
+1156,Rohan Das,HR,Lead,31950,2020-09-22,Resigned
+1157,Arjun Iyer,Sales,Lead,69149,2024-03-21,Resigned
+1158,Kavya Menon,Support,Senior,40239,2019-08-24,Active
+1159,Nikhil Nair,Support,Associate,43572,2020-06-13,Active
+1160,Uma Patel,Support,Manager,26573,2024-01-18,Active

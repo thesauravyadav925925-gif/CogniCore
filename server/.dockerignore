@@ -1,0 +1,9 @@
+node_modules
+data
+data-test
+uploads
+uploads-test
+.env
+*.log
+tests
+.git

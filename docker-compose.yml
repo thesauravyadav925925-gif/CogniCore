@@ -1,0 +1,61 @@
+services:
+  server:
+    build:
+      context: ./server
+    ports:
+      - "4000:4000"
+    environment:
+      NODE_ENV: production
+      PORT: 4000
+      # Set a real secret before deploying anywhere but your own machine -
+      # generate one with: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+      JWT_SECRET: ${JWT_SECRET:-CHANGE_ME_dev_only_insecure_secret}
+      JWT_EXPIRY: ${JWT_EXPIRY:-7d}
+      LLM_PROVIDER: ${LLM_PROVIDER:-ollama}
+      # host.docker.internal lets the container reach Ollama running natively
+      # on your machine (recommended - especially if you have a GPU). If you
+      # use the bundled `ollama` service below instead, override this to
+      # http://ollama:11434 (e.g. in a .env file at the project root).
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen2.5:7b}
+      OLLAMA_EMBEDDING_MODEL: ${OLLAMA_EMBEDDING_MODEL:-nomic-embed-text}
+    volumes:
+      - cognicore_data:/app/data
+      - cognicore_uploads:/app/uploads
+    extra_hosts:
+      # Makes host.docker.internal resolve on Linux too (Docker Desktop on
+      # Mac/Windows already provides this automatically).
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+  client:
+    build:
+      context: ./client
+      args:
+        # Browser calls the backend directly on its published port - simplest
+        # setup for local/single-host deployment. Override if you put this
+        # behind a reverse proxy at a different path/host.
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:4000}
+    ports:
+      - "5173:80"
+    depends_on:
+      - server
+    restart: unless-stopped
+
+  # Optional: run Ollama inside Docker too instead of natively on the host.
+  # Not started by default - `docker compose --profile with-ollama up` to
+  # include it. Note this runs CPU-only unless you add GPU device requests
+  # for your platform; running Ollama natively is usually faster.
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["with-ollama"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  cognicore_data:
+  cognicore_uploads:
+  ollama_models:

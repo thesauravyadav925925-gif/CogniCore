@@ -1,0 +1,181 @@
+student_id,student_name,course,semester,score,attendance_pct,enrolled_date
+5001,Uma Patel,Computer Science,Sem 3,79,89,2024-08-01
+5002,Rahul Menon,Mathematics,Sem 1,68,92,2023-07-16
+5003,Sana Gupta,Physics,Sem 3,82,85,2025-08-23
+5004,Meera Patel,Chemistry,Sem 1,68,72,2025-08-08
+5005,Ananya Reddy,Chemistry,Sem 1,57,85,2023-08-19
+5006,Aarav Gupta,Physics,Sem 2,85,95,2023-06-27
+5007,Priya Sharma,Chemistry,Sem 1,78,86,2025-08-21
+5008,Sneha Rao,Computer Science,Sem 2,56,55,2022-07-25
+5009,Kabir Sharma,Mathematics,Sem 2,59,84,2023-06-02
+5010,Kavya Sharma,Computer Science,Sem 2,81,79,2024-06-18
+5011,Nikhil Sharma,Mathematics,Sem 2,66,90,2024-06-10
+5012,Arjun Nair,Chemistry,Sem 1,95,94,2023-06-20
+5013,Sneha Sharma,Chemistry,Sem 2,85,94,2024-06-05
+5014,Diya Nair,Physics,Sem 2,73,92,2025-08-04
+5015,Meera Sharma,Computer Science,Sem 2,86,100,2025-07-19
+5016,Nikhil Singh,Computer Science,Sem 2,54,77,2024-08-25
+5017,Rahul Gupta,Mathematics,Sem 2,69,81,2022-07-13
+5018,Rahul Singh,Chemistry,Sem 2,73,91,2022-08-10
+5019,Tarun Rao,Physics,Sem 1,71,57,2024-07-10
+5020,Kabir Nair,Mathematics,Sem 2,61,79,2024-07-15
+5021,Uma Singh,Computer Science,Sem 1,53,66,2025-08-13
+5022,Diya Nair,Computer Science,Sem 3,59,64,2024-07-19
+5023,Tarun Nair,Computer Science,Sem 1,42,58,2024-07-19
+5024,Nikhil Das,Computer Science,Sem 1,55,66,2022-06-18
+5025,Meera Sharma,Physics,Sem 2,80,81,2022-06-28
+5026,Pooja Menon,Physics,Sem 2,71,57,2022-07-17
+5027,Sana Rao,Computer Science,Sem 3,68,77,2024-06-04
+5028,Rahul Das,Mathematics,Sem 1,71,73,2022-06-06
+5029,Priya Rao,Mathematics,Sem 1,78,90,2024-08-21
+5030,Uma Patel,Mathematics,Sem 2,59,68,2023-07-05
+5031,Ishaan Nair,Chemistry,Sem 1,78,80,2025-07-16
+5032,Meera Sharma,Computer Science,Sem 3,61,92,2023-06-20
+5033,Priya Das,Mathematics,Sem 2,65,96,2024-07-15
+5034,Ishaan Das,Mathematics,Sem 3,53,55,2022-08-13
+5035,Pooja Singh,Computer Science,Sem 1,91,90,2023-07-04
+5036,Nikhil Menon,Chemistry,Sem 3,62,58,2022-06-01
+5037,Ishaan Gupta,Mathematics,Sem 2,85,84,2022-08-14
+5038,Rohan Gupta,Chemistry,Sem 2,93,100,2025-07-06
+5039,Diya Sharma,Computer Science,Sem 1,88,83,2024-06-17
+5040,Uma Iyer,Physics,Sem 3,85,79,2022-08-08
+5041,Uma Das,Physics,Sem 2,47,60,2022-08-24
+5042,Ishaan Singh,Computer Science,Sem 3,56,70,2022-06-03
+5043,Sana Reddy,Computer Science,Sem 1,70,92,2023-08-15
+5044,Meera Das,Physics,Sem 3,72,58,2024-08-09
+5045,Pooja Singh,Mathematics,Sem 3,97,96,2022-08-17
+5046,Priya Singh,Mathematics,Sem 1,81,80,2022-08-07
+5047,Priya Menon,Computer Science,Sem 2,69,55,2023-06-10
+5048,Priya Rao,Chemistry,Sem 3,68,91,2025-08-10
+5049,Ananya Nair,Computer Science,Sem 1,84,80,2024-08-17
+5050,Aarav Iyer,Chemistry,Sem 3,72,74,2023-07-26
+5051,Arjun Singh,Chemistry,Sem 2,69,78,2022-08-03
+5052,Uma Das,Mathematics,Sem 1,72,72,2024-07-20
+5053,Sana Menon,Mathematics,Sem 3,66,100,2022-08-12
+5054,Rohan Gupta,Mathematics,Sem 2,63,84,2025-08-27
+5055,Aarav Sharma,Chemistry,Sem 1,69,75,2025-08-04
+5056,Rahul Nair,Chemistry,Sem 2,76,81,2025-08-02
+5057,Aarav Sharma,Chemistry,Sem 3,59,85,2022-06-09
+5058,Diya Singh,Computer Science,Sem 3,80,85,2025-07-28
+5059,Sneha Nair,Mathematics,Sem 1,77,71,2024-08-22
+5060,Meera Menon,Mathematics,Sem 2,67,78,2025-07-27
+5061,Vikram Nair,Mathematics,Sem 3,59,73,2025-06-07
+5062,Vikram Sharma,Physics,Sem 2,66,79,2022-07-27
+5063,Kabir Singh,Mathematics,Sem 2,89,80,2025-08-07
+5064,Diya Menon,Mathematics,Sem 3,48,69,2023-08-05
+5065,Uma Nair,Physics,Sem 1,78,73,2022-07-07
+5066,Pooja Patel,Computer Science,Sem 2,76,89,2024-07-24
+5067,Uma Iyer,Mathematics,Sem 3,54,69,2025-08-23
+5068,Kavya Menon,Computer Science,Sem 2,80,86,2022-07-01
+5069,Nikhil Menon,Mathematics,Sem 1,64,77,2024-07-11
+5070,Aarav Sharma,Physics,Sem 3,79,100,2023-08-19
+5071,Rohan Gupta,Computer Science,Sem 1,81,82,2024-08-13
+5072,Kabir Menon,Chemistry,Sem 2,91,99,2024-07-06
+5073,Aarav Patel,Computer Science,Sem 2,75,96,2022-07-16
+5074,Sneha Gupta,Chemistry,Sem 1,60,87,2025-06-22
+5075,Rahul Reddy,Physics,Sem 3,73,80,2025-08-08
+5076,Pooja Das,Physics,Sem 1,65,68,2025-06-12
+5077,Ananya Singh,Physics,Sem 3,72,64,2024-06-18
+5078,Ishaan Menon,Mathematics,Sem 1,94,92,2025-07-14
+5079,Diya Iyer,Physics,Sem 1,71,73,2022-07-08
+5080,Sana Rao,Mathematics,Sem 3,73,78,2023-06-20
+5081,Ananya Rao,Physics,Sem 3,73,97,2023-06-16
+5082,Tarun Singh,Computer Science,Sem 3,79,88,2022-06-26
+5083,Ananya Patel,Chemistry,Sem 2,68,79,2025-08-14
+5084,Vikram Rao,Chemistry,Sem 3,89,99,2025-07-24
+5085,Ananya Das,Chemistry,Sem 3,73,55,2024-07-21
+5086,Nikhil Nair,Physics,Sem 1,78,82,2024-08-18
+5087,Pooja Patel,Chemistry,Sem 2,72,63,2025-06-18
+5088,Pooja Reddy,Chemistry,Sem 2,80,89,2022-06-19
+5089,Sana Iyer,Computer Science,Sem 2,59,79,2022-07-19
+5090,Ishaan Sharma,Physics,Sem 2,76,94,2023-08-08
+5091,Diya Patel,Physics,Sem 1,65,88,2022-06-16
+5092,Kavya Menon,Computer Science,Sem 1,68,80,2024-08-09
+5093,Uma Patel,Computer Science,Sem 3,62,89,2022-06-20
+5094,Sana Singh,Computer Science,Sem 3,67,93,2022-06-21
+5095,Uma Nair,Chemistry,Sem 3,69,88,2022-06-07
+5096,Sana Patel,Chemistry,Sem 2,74,72,2025-07-20
+5097,Tarun Patel,Mathematics,Sem 2,67,91,2024-07-27
+5098,Tarun Gupta,Chemistry,Sem 3,71,76,2022-07-14
+5099,Ishaan Das,Physics,Sem 3,71,99,2022-07-28
+5100,Nikhil Patel,Physics,Sem 2,66,91,2025-06-07
+5101,Priya Sharma,Mathematics,Sem 3,56,84,2025-08-16
+5102,Nikhil Gupta,Mathematics,Sem 3,69,62,2023-07-07
+5103,Kavya Singh,Computer Science,Sem 3,81,68,2023-07-13
+5104,Aarav Singh,Mathematics,Sem 2,71,73,2024-06-26
+5105,Uma Das,Physics,Sem 1,72,83,2022-06-07
+5106,Pooja Rao,Chemistry,Sem 3,81,78,2025-07-15
+5107,Arjun Menon,Physics,Sem 1,62,62,2025-06-10
+5108,Aarav Reddy,Computer Science,Sem 2,98,98,2022-08-10
+5109,Vikram Menon,Physics,Sem 3,68,71,2025-07-24
+5110,Aarav Rao,Mathematics,Sem 1,81,67,2024-06-22
+5111,Tarun Iyer,Mathematics,Sem 1,96,93,2024-06-22
+5112,Aarav Das,Chemistry,Sem 2,70,92,2022-06-23
+5113,Sana Nair,Computer Science,Sem 1,60,76,2022-06-18
+5114,Priya Das,Computer Science,Sem 3,68,88,2022-06-01
+5115,Meera Das,Chemistry,Sem 1,93,94,2025-07-27
+5116,Meera Patel,Physics,Sem 2,50,58,2022-06-10
+5117,Aarav Nair,Mathematics,Sem 2,44,62,2025-08-08
+5118,Nikhil Patel,Mathematics,Sem 1,92,86,2025-08-04
+5119,Kabir Menon,Mathematics,Sem 1,70,61,2025-08-20
+5120,Meera Das,Physics,Sem 3,61,82,2025-07-23
+5121,Pooja Patel,Computer Science,Sem 3,48,69,2023-08-26
+5122,Rahul Reddy,Computer Science,Sem 2,74,73,2023-08-13
+5123,Vikram Gupta,Mathematics,Sem 2,77,59,2025-06-20
+5124,Meera Nair,Mathematics,Sem 3,53,71,2025-08-07
+5125,Arjun Nair,Mathematics,Sem 2,77,100,2024-06-16
+5126,Rahul Reddy,Computer Science,Sem 1,57,69,2022-07-04
+5127,Kavya Menon,Computer Science,Sem 3,53,63,2025-07-14
+5128,Ananya Menon,Chemistry,Sem 2,75,64,2023-08-15
+5129,Sneha Singh,Computer Science,Sem 3,64,84,2022-08-03
+5130,Arjun Rao,Computer Science,Sem 1,79,66,2025-06-10
+5131,Vikram Sharma,Physics,Sem 3,41,55,2024-07-25
+5132,Vikram Rao,Physics,Sem 2,84,96,2023-07-01
+5133,Kavya Patel,Chemistry,Sem 3,61,90,2024-06-04
+5134,Sana Iyer,Computer Science,Sem 2,80,94,2024-08-13
+5135,Sneha Sharma,Mathematics,Sem 1,53,64,2024-06-03
+5136,Aarav Rao,Mathematics,Sem 3,48,55,2025-07-09
+5137,Uma Gupta,Computer Science,Sem 2,51,72,2022-07-27
+5138,Rohan Das,Mathematics,Sem 2,86,95,2024-06-26
+5139,Uma Menon,Computer Science,Sem 2,90,96,2023-08-02
+5140,Uma Nair,Computer Science,Sem 2,83,90,2024-08-11
+5141,Ishaan Reddy,Computer Science,Sem 1,57,86,2022-07-01
+5142,Vikram Reddy,Computer Science,Sem 1,71,100,2022-07-01
+5143,Uma Sharma,Chemistry,Sem 1,66,73,2023-06-28
+5144,Uma Rao,Computer Science,Sem 2,60,73,2023-06-23
+5145,Diya Gupta,Chemistry,Sem 1,85,100,2025-08-21
+5146,Rohan Sharma,Chemistry,Sem 3,43,60,2023-07-28
+5147,Aarav Menon,Chemistry,Sem 1,77,94,2024-08-03
+5148,Aarav Gupta,Chemistry,Sem 3,80,70,2022-07-26
+5149,Sneha Rao,Physics,Sem 3,56,78,2025-06-22
+5150,Rahul Patel,Computer Science,Sem 3,54,72,2022-06-10
+5151,Rahul Singh,Chemistry,Sem 1,51,58,2025-08-11
+5152,Arjun Das,Computer Science,Sem 2,64,58,2022-06-10
+5153,Nikhil Patel,Computer Science,Sem 2,69,85,2022-06-23
+5154,Ananya Menon,Mathematics,Sem 3,80,66,2022-07-06
+5155,Meera Iyer,Mathematics,Sem 2,59,56,2023-08-05
+5156,Rohan Rao,Mathematics,Sem 2,61,57,2025-06-20
+5157,Rohan Gupta,Mathematics,Sem 2,63,60,2022-08-15
+5158,Ishaan Patel,Physics,Sem 2,60,78,2023-06-21
+5159,Aarav Reddy,Chemistry,Sem 3,71,74,2022-07-27
+5160,Kabir Nair,Computer Science,Sem 3,58,78,2022-06-01
+5161,Rohan Reddy,Chemistry,Sem 2,64,78,2024-08-13
+5162,Rohan Reddy,Mathematics,Sem 2,79,99,2023-07-15
+5163,Sneha Das,Computer Science,Sem 1,68,75,2025-07-25
+5164,Tarun Gupta,Mathematics,Sem 3,59,68,2024-07-01
+5165,Sneha Iyer,Computer Science,Sem 1,74,95,2024-08-25
+5166,Kavya Das,Chemistry,Sem 1,58,67,2024-08-04
+5167,Tarun Nair,Mathematics,Sem 1,60,89,2025-06-10
+5168,Priya Gupta,Physics,Sem 1,92,99,2023-08-19
+5169,Aarav Nair,Chemistry,Sem 3,85,92,2022-07-20
+5170,Nikhil Das,Computer Science,Sem 2,76,60,2023-06-06
+5171,Rahul Singh,Physics,Sem 2,45,64,2025-07-11
+5172,Pooja Patel,Physics,Sem 3,84,91,2024-06-16
+5173,Kavya Patel,Computer Science,Sem 1,46,66,2025-08-06
+5174,Ananya Reddy,Chemistry,Sem 3,53,78,2023-07-27
+5175,Priya Gupta,Mathematics,Sem 3,80,78,2022-07-03
+5176,Kabir Das,Mathematics,Sem 1,69,83,2024-08-21
+5177,Ishaan Patel,Physics,Sem 2,72,69,2022-07-05
+5178,Arjun Nair,Mathematics,Sem 3,68,71,2023-06-23
+5179,Ananya Rao,Physics,Sem 2,67,80,2024-08-17
+5180,Rohan Nair,Chemistry,Sem 2,59,65,2024-06-19
