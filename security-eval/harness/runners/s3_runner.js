@@ -70,7 +70,7 @@ function quoteSqlStr(v) {
 function extractSchema(db) {
   const tableNames = db.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'").all().map((r) => r.name);
   const tables = tableNames.map((name) => {
-    const cols = db.prepare(`PRAGMA table_info("${String(name).replace(/"/g, '""')})`).all().map((c) => ({
+    const cols = db.prepare(`PRAGMA table_info("${String(name).replace(/"/g, '""')}")`).all().map((c) => ({
       name: c.name, type: c.type, nullable: !c.notnull, primaryKey: Boolean(c.pk),
     }));
     return { name, columns: cols };

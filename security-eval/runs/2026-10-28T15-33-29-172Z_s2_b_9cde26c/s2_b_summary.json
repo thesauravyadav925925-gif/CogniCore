@@ -1,0 +1,40 @@
+{
+  "suite": "S2-B",
+  "rung": "9cde26c",
+  "timestamp": "2026-10-28T15:33:51.793Z",
+  "h2a": {
+    "total": 48,
+    "exactAgreement": 48,
+    "blockedSafe": 0,
+    "leaks": 0,
+    "overFiltered": 0,
+    "wrong": 0,
+    "triageIncomplete": 0,
+    "passRate": 100,
+    "passRateNote": "exact / all evaluated H2-A executions (A5 fix, 2026-10-27)",
+    "clopperPearson95UpperLeakBound": 0.06050340934889431
+  },
+  "h2b": {
+    "total": 3,
+    "leaksConfirmedUnderD04": 1,
+    "decisionD04Note": "Transitive FK child tables without explicit tenant_id require JOIN or explicit filter; unjoined query on child table is exposed by design."
+  },
+  "v3": {
+    "total": 510,
+    "skipped": 0,
+    "verdicts": {
+      "allowedExact": 206,
+      "blocked": 165,
+      "leak": 0,
+      "overFiltered": 3,
+      "wrong": 0,
+      "triageIncomplete": 136
+    },
+    "matchesExpected": 360,
+    "measuredLeaks": 0,
+    "preflightFailed": null,
+    "methodNote": "Each item: unconstrained raw execution + purged ground-truth clone (rowFilters as DELETE ... WHERE NOT (...), quoting mirrors data.policy.js sqlStr; denied columns ABSENT from ground truth per A4 fix/AM-S2B-2 — raw and enforced observations unmodified) + enforced chain; verdict = TriageOracle.triage (O10). Designed-leak probes counted in measuredLeaks. matchesExpected semantics (B7 fix, AM-S2B-1, 2026-10-27): measured verdict AGREES with corpus expected_outcome — a designed-leak probe matches when it LEAKED (corpus-design validity), permit/rewrite_and_filter match on ALLOWED-EXACT, syntax_error/policy_error on their stop reasons. No historical claim depends on the prior inverted semantics (historical V3 records carry no verdicts)."
+  },
+  "valid": true,
+  "runDir": "/home/eshangoyal/CogniCore/security-eval/runs/2026-10-28T15-33-29-172Z_s2_b_9cde26c"
+}

@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-10-28T15:00:27.576Z",
+  "commit": "8bab45e3321d919a733a264c2103c670a768720c",
+  "runtime": {
+    "nodeVersion": "v22.22.2",
+    "platform": "linux",
+    "arch": "x64",
+    "sqliteCliVersion": "3.51.2 2026-01-09 17:27:48 b270f8339eb13b504d0b2ba154ebca966b7dde08e40c3ed7d559749818cbalt1 (64-bit)",
+    "betterSqliteVersion": "3.53.2"
+  },
+  "inputChecksums": {
+    "/home/eshangoyal/CogniCore/validation/data/v4/attacks.jsonl": "f88bc4980805c0fadddd391cd4c7e1c37ad864c9bd3af1c26d9724422a8d925a",
+    "/home/eshangoyal/CogniCore/validation/data/v4/regressions.jsonl": "364dce84e8af1e5c01c163f72832cc527e48f4717d36e5f4b4dbf133a33ce312",
+    "/home/eshangoyal/CogniCore/validation/data/v4b/b2_probes.jsonl": "ce2457bd884d3291c56ac9d548be8ae8fa6ae12f85d8c971b0df753c48e3a4fc",
+    "/home/eshangoyal/CogniCore/validation/data/v4d/executable_writes.jsonl": "c60eb48d1e88da820527a264614af22dc9d30f37245d625890dbb82aebbf6a6b",
+    "/home/eshangoyal/CogniCore/validation/data/v4/benign.jsonl": "a9fcb7110eddd729c629bd262fdbbba846c702eaf6e3163de60d66df45f64c38",
+    "/home/eshangoyal/CogniCore/validation/data/v4b/c2_benign.jsonl": "5d7927ed2113bc2ae3c994c43b4a1dc92e6176bce8c49a9ea5cb3238f2991858"
+  },
+  "suite": "S1-A",
+  "rung": "9cde26c",
+  "worktree": "/home/eshangoyal/CogniCore",
+  "totalItems": 3191,
+  "strictCorpusLoader": true,
+  "canaryMap": null,
+  "preflight": {
+    "fixturesRequired": 15,
+    "fixturesMissing": 0,
+    "missing": []
+  },
+  "dryRun": false
+}

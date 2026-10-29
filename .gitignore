@@ -41,3 +41,5 @@ validation/APPROVED_TO_RUN
 __pycache__/
 *.pyc
 .agent/
+file:sandbox.db?mode=rwc
+security-eval/runs/*_dry-run/

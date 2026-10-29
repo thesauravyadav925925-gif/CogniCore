@@ -1,0 +1,146 @@
+{
+  "suite": "S2-PROBES",
+  "rung": "9cde26c",
+  "timestamp": "2026-10-28T15:36:30.955Z",
+  "probes": [
+    {
+      "probe": "P1_aggregate_side_channel",
+      "hypothesis": "H1-C",
+      "verdicts": [
+        {
+          "probe": "count_star",
+          "verdict": "CARDINALITY_LEAK",
+          "firstStop": "EXECUTED_CLEAN"
+        },
+        {
+          "probe": "group_concat",
+          "verdict": "SIDE_CHANNEL_BLOCKED",
+          "firstStop": "POLICY_BLOCKED"
+        },
+        {
+          "probe": "count_via_alias",
+          "verdict": "CARDINALITY_LEAK",
+          "firstStop": "EXECUTED_CLEAN"
+        }
+      ],
+      "cardinalityLeaks": 2,
+      "assessment": "2/3 aggregate queries on a fully-denied table executed — cardinality side-channel CONFIRMED."
+    },
+    {
+      "probe": "P2_role_alias",
+      "verdicts": [
+        {
+          "role": "admin",
+          "deniedColumns": 0,
+          "rowFilters": 0,
+          "verdict": "UNRESTRICTED_BY_DESIGN"
+        },
+        {
+          "role": "Admin",
+          "deniedColumns": 0,
+          "rowFilters": 1,
+          "verdict": "RESTRICTED"
+        },
+        {
+          "role": "ADMIN",
+          "deniedColumns": 0,
+          "rowFilters": 1,
+          "verdict": "RESTRICTED"
+        },
+        {
+          "role": "admin ",
+          "deniedColumns": 0,
+          "rowFilters": 1,
+          "verdict": "RESTRICTED"
+        },
+        {
+          "role": "administrator",
+          "deniedColumns": 0,
+          "rowFilters": 1,
+          "verdict": "RESTRICTED"
+        },
+        {
+          "role": "analyst",
+          "deniedColumns": 1,
+          "rowFilters": 1,
+          "verdict": "RESTRICTED"
+        },
+        {
+          "role": "viewer",
+          "deniedColumns": 0,
+          "rowFilters": 1,
+          "verdict": "RESTRICTED"
+        }
+      ],
+      "assessment": "No alias bypasses policy: role matching is exact string match and the admin short-circuit fires only for the literal role 'admin'."
+    },
+    {
+      "probe": "P3_policy_error_text",
+      "verdicts": [
+        {
+          "sql": "SELECT balance FROM accounts",
+          "threw": true,
+          "errorName": "PolicyError",
+          "message": "Your role does not have access to the column \"balance\".",
+          "details": {
+            "column": "balance"
+          },
+          "messageDisclosesFilePathOrCode": false
+        },
+        {
+          "sql": "SELECT balance FROM accounts WHERE note = 'x' || balancetest",
+          "threw": true,
+          "errorName": "PolicyError",
+          "message": "Your role does not have access to the column \"balance\".",
+          "details": {
+            "column": "balance"
+          },
+          "messageDisclosesFilePathOrCode": false
+        },
+        {
+          "sql": "WITH c AS (SELECT balance FROM accounts) SELECT * FROM c",
+          "threw": true,
+          "errorName": "PolicyError",
+          "message": "Your role cannot access the restricted column(s): balance. Ask for specific columns instead of \"all columns\".",
+          "details": {
+            "columns": [
+              "balance"
+            ]
+          },
+          "messageDisclosesFilePathOrCode": false
+        }
+      ],
+      "assessment": "PolicyError messages disclose only column/table names (by-design UX text); no file paths or code fragments found."
+    },
+    {
+      "probe": "P4_schema_endpoint",
+      "probeId": "P4_schema_endpoint",
+      "part": "S2-PROBE",
+      "verdict": "NOT_RUN_HTTP_DISABLED",
+      "note": "HTTP probe is opt-in. Re-run with --schema-url <url> after the server is started (I1: npm ci must precede any HTTP test)."
+    },
+    {
+      "probe": "P5_admin_bypass",
+      "verdicts": [
+        {
+          "case": "role=admin",
+          "policyEmpty": true,
+          "verdict": "BYPASS_BY_DESIGN",
+          "enforcedChainResult": "EXECUTED"
+        },
+        {
+          "case": "role=analyst",
+          "policyEmpty": false,
+          "verdict": "RESTRICTED_AS_EXPECTED"
+        },
+        {
+          "case": "user=null",
+          "policyEmpty": true,
+          "verdict": "UNRESTRICTED_NULL_USER_GUARD"
+        }
+      ],
+      "assessment": "Admin bypass is by design (resolvePolicy short-circuits role='admin' and the !user guard returns an empty policy). APP-LAYER RISK RECORDED: any code path that assigns user.role from unvalidated input, or calls the policy layer with user=null, neutralizes all column/row restrictions. Server route handlers must guarantee authenticated, server-side role assignment."
+    }
+  ],
+  "runDir": "/home/eshangoyal/CogniCore/security-eval/runs/2026-10-28T15-36-30-662Z_s2_probes_9cde26c"
+}

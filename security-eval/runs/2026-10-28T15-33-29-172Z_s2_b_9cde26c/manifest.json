@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-28T15:33:29.302Z",
+  "commit": "960a69b7ab41e70d5cd14fdb166e8e3916ed63f7",
+  "runtime": {
+    "nodeVersion": "v22.22.2",
+    "platform": "linux",
+    "arch": "x64",
+    "sqliteCliVersion": "3.51.2 2026-01-09 17:27:48 b270f8339eb13b504d0b2ba154ebca966b7dde08e40c3ed7d559749818cbalt1 (64-bit)",
+    "betterSqliteVersion": "3.53.2"
+  },
+  "inputChecksums": {
+    "/home/eshangoyal/CogniCore/security-eval/data/fixtures/multi_tenant_bank.sqlite": "6f7fb598ef7b75aadf025e013be05e49883e406eb9f7ad981fc989a4bd5813a8",
+    "/home/eshangoyal/CogniCore/security-eval/data/fixtures/child_projects.sqlite": "1417a24449c64d5d930a5e448c9b6b2e3fa5dbdc61a5a9b1761edf6647b03280",
+    "/home/eshangoyal/CogniCore/validation/data/v3/v3_queries.jsonl": "67b4ad014d4a8ee017171f706c67b0c7df71556d25b47e58da46764f2922481c"
+  },
+  "suite": "S2-B",
+  "rung": "9cde26c",
+  "worktree": "/home/eshangoyal/CogniCore",
+  "dryRun": false,
+  "limit": null
+}

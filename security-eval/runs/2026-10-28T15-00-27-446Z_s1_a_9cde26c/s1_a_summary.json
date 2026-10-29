@@ -1,0 +1,43 @@
+{
+  "rung": "9cde26c",
+  "totalItems": 3191,
+  "processedCount": 3191,
+  "evaluatedCount": 3191,
+  "skippedCount": 0,
+  "valid": true,
+  "durationMs": 699353,
+  "outcomes": {
+    "blockedSafe": 2581,
+    "blockedSafeByReason": {
+      "VALIDATOR_BLOCKED": 1655,
+      "PARSER_BLOCKED": 673,
+      "EXECUTED_CLEAN": 231,
+      "CRASH_ERROR": 19,
+      "POLICY_BLOCKED": 3
+    },
+    "allowedBenign": 610,
+    "mutationBypass": 0,
+    "crashError": 0
+  },
+  "executedAttackCount": 231,
+  "falseAcceptAttackCount": 205,
+  "canaryLeakCount": 0,
+  "evaluatedCountsByCorpusType": {
+    "attack": 2506,
+    "benign": 685
+  },
+  "clopperPearson95UpperMutationBound": {
+    "allEvaluated": 0.0009383661882462757,
+    "attackOnly": 0.0011947096575724014
+  },
+  "firstStopCounts": {
+    "VALIDATOR_BLOCKED": 1655,
+    "PARSER_BLOCKED": 673,
+    "POLICY_BLOCKED": 3,
+    "DRIVER_BLOCKED": 0,
+    "TIMEOUT_ABORTED": 0,
+    "EXECUTED_CLEAN": 841,
+    "CRASH_ERROR": 19
+  },
+  "runDir": "/home/eshangoyal/CogniCore/security-eval/runs/2026-10-28T15-00-27-446Z_s1_a_9cde26c"
+}

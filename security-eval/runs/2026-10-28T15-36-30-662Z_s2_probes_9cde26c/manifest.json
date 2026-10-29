@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-28T15:36:30.666Z",
+  "commit": "960a69b7ab41e70d5cd14fdb166e8e3916ed63f7",
+  "runtime": {
+    "nodeVersion": "v22.22.2",
+    "platform": "linux",
+    "arch": "x64",
+    "sqliteCliVersion": "3.51.2 2026-01-09 17:27:48 b270f8339eb13b504d0b2ba154ebca966b7dde08e40c3ed7d559749818cbalt1 (64-bit)",
+    "betterSqliteVersion": "3.53.2"
+  },
+  "inputChecksums": {},
+  "suite": "S2-PROBES",
+  "rung": "9cde26c",
+  "worktree": "/home/eshangoyal/CogniCore",
+  "schemaUrl": null,
+  "syntheticFixture": true
+}

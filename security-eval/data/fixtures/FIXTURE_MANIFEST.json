@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T05:37:52.981Z",
+  "generatedAt": "2026-10-28T15:30:50.931Z",
   "provenance": {
     "archive": "database.zip",
     "sha256": "feef7df886a3478c4d669b1858eed790ab97f7733b1e9504a6673bed15e6d9c9",
@@ -14,6 +14,13 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "origin": "unknown",
       "builder": null
+    },
+    {
+      "path": "child_projects.sqlite",
+      "bytes": 16384,
+      "sha256": "1417a24449c64d5d930a5e448c9b6b2e3fa5dbdc61a5a9b1761edf6647b03280",
+      "origin": "deterministic_build",
+      "builder": "harness/setup/03_build_child_fixture.js"
     },
     {
       "path": "database/bank/B1_community.db",
@@ -158,6 +165,20 @@
       "builder": "harness/setup/09_build_fd_fixture.js"
     },
     {
+      "path": "job_postings.sqlite",
+      "bytes": 20480,
+      "sha256": "197979695d778716f7f860b9ecfce828586d3fb31f2429e38d359b949820ad65",
+      "origin": "deterministic_build",
+      "builder": "harness/setup/02_convert_job_postings.js"
+    },
+    {
+      "path": "multi_tenant_bank.sqlite",
+      "bytes": 12288,
+      "sha256": "6f7fb598ef7b75aadf025e013be05e49883e406eb9f7ad981fc989a4bd5813a8",
+      "origin": "deterministic_build",
+      "builder": "harness/setup/08_build_multi_tenant_bank.js"
+    },
+    {
       "path": "s5_context.sqlite",
       "bytes": 12288,
       "sha256": "c209d4a57529b55117f97adefa9694b2462ff7454664c80a2120b530aeeeaa11",
@@ -173,8 +194,8 @@
     }
   ],
   "summary": {
-    "total": 19,
-    "deterministic": 3,
+    "total": 22,
+    "deterministic": 6,
     "fromDatabaseZip": 15,
     "unknown": 1
   },

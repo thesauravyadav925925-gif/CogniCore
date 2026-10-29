@@ -1,0 +1,101 @@
+{
+  "suite": "S4",
+  "rung": "HEAD",
+  "valid": true,
+  "dryRun": false,
+  "runDir": "/home/eshangoyal/CogniCore/security-eval/runs/2026-10-29T04-58-35-185Z_s4_HEAD",
+  "fixtureSha256": "6aa20425f80883f606b8361e785c0f449984d07ccadaea220c0bb2f13820a6d3",
+  "fixtureTruthLoaded": true,
+  "partA": {
+    "evaluated": 14,
+    "expected": 14,
+    "quotable": true,
+    "armVerdicts": {
+      "FD_LEAK": 2,
+      "NO_RECONSTRUCTION": 2
+    },
+    "armOutcomes": {
+      "FD-1": {
+        "verdict": "FD_LEAK",
+        "primary": {
+          "outcome": "FULL_RECONSTRUCTION",
+          "fraction": 1,
+          "rowsReleased": 139,
+          "rowsWithPrediction": 139,
+          "cellsCrosschecked": 134,
+          "mismatches": [],
+          "mismatchCount": 0
+        },
+        "secondaryChained": null
+      },
+      "FD-2": {
+        "verdict": "FD_LEAK",
+        "primary": {
+          "outcome": "FULL_RECONSTRUCTION",
+          "fraction": 1,
+          "rowsReleased": 164,
+          "rowsWithPrediction": 164,
+          "cellsCrosschecked": 160,
+          "mismatches": [],
+          "mismatchCount": 0
+        },
+        "secondaryChained": null
+      },
+      "FD-3": {
+        "verdict": "NO_RECONSTRUCTION",
+        "primary": {
+          "outcome": "NO_RECONSTRUCTION",
+          "fraction": 0,
+          "rowsReleased": 150,
+          "rowsWithPrediction": 0,
+          "cellsCrosschecked": 0,
+          "mismatches": [],
+          "mismatchCount": 0
+        },
+        "secondaryChained": {
+          "outcome": "FULL_RECONSTRUCTION",
+          "fraction": 1,
+          "rowsReleased": 150,
+          "rowsWithPrediction": 150,
+          "cellsCrosschecked": 150,
+          "mismatches": [],
+          "mismatchCount": 0
+        }
+      },
+      "CONTROL": {
+        "verdict": "NO_RECONSTRUCTION",
+        "primary": {
+          "outcome": "NO_RECONSTRUCTION",
+          "fraction": 0,
+          "rowsReleased": 16,
+          "rowsWithPrediction": 0,
+          "cellsCrosschecked": 0,
+          "mismatches": [],
+          "mismatchCount": 0
+        },
+        "note": "control rows evaluated against FD-1; expected NO_RECONSTRUCTION"
+      }
+    },
+    "fullReconstructionArms": [
+      "FD-1",
+      "FD-2"
+    ],
+    "primaryEndpoint": "per-FD FULL_RECONSTRUCTION count (no rate inference; PREREG_S4 §6); armVerdicts counts FD arms + control"
+  },
+  "partB": {
+    "evaluated": 10,
+    "expected": 10,
+    "quotable": true,
+    "verdicts": {
+      "ORACLE_INCOMPLETE": 10
+    },
+    "leaks": 0,
+    "clopperPearsonUpper95_zeroLeaks": 0.2588655508930522
+  },
+  "canaryScan": {
+    "state": "CANARY_LEAK",
+    "matches": 15
+  },
+  "zeroLlm": true,
+  "methodNote": "Part A: per-FD exact declared-FD reconstruction over the union of released rows from preregistered allowed-column queries; chained inference recorded as secondary; predictions with zero verifiable ground-truth cells report ORACLE_INCOMPLETE (B6 fix, never a favourable NO_RECONSTRUCTION). Part B (C1 fix 2026-10-27): the identical post-policy SQL executes against both the sandbox and a materialised purged clone database (row filters + FK-derived purge for the no-tenant-key child; orphans purged for every tenant); leak = live result tuples absent from the clone result MULTISET — projection- and JOIN-safe. Fresh sandbox per query. BLOCKED_IN_TIME equivalents: OVER_BLOCKED (policy/validator withheld) — a blocked query releases nothing."
+}

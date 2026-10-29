@@ -1,0 +1,78 @@
+{
+  "rung": "9cde26c",
+  "benchmark": "enforcePolicy_scaling",
+  "iterationsPerTier": 50,
+  "tiers": [
+    {
+      "tier": 1,
+      "iterations": 50,
+      "stats": {
+        "mean": 0.23927842,
+        "median": 0.202315,
+        "p95": 0.358662,
+        "p99": 1.218688,
+        "min": 0.148453,
+        "max": 1.218688,
+        "count": 50
+      },
+      "heapDeltaBytes": 1095056
+    },
+    {
+      "tier": 10,
+      "iterations": 50,
+      "stats": {
+        "mean": 0.17386031999999996,
+        "median": 0.12900650000000002,
+        "p95": 0.243982,
+        "p99": 0.873347,
+        "min": 0.113381,
+        "max": 0.873347,
+        "count": 50
+      },
+      "heapDeltaBytes": 366344
+    },
+    {
+      "tier": 50,
+      "iterations": 50,
+      "stats": {
+        "mean": 0.19857559999999996,
+        "median": 0.164264,
+        "p95": 0.279436,
+        "p99": 1.191422,
+        "min": 0.147801,
+        "max": 1.191422,
+        "count": 50
+      },
+      "heapDeltaBytes": 1318816
+    },
+    {
+      "tier": 100,
+      "iterations": 50,
+      "stats": {
+        "mean": 0.3058034200000001,
+        "median": 0.22929300000000002,
+        "p95": 0.694392,
+        "p99": 1.23632,
+        "min": 0.162891,
+        "max": 1.23632,
+        "count": 50
+      },
+      "heapDeltaBytes": 422392
+    },
+    {
+      "tier": 250,
+      "iterations": 50,
+      "stats": {
+        "mean": 0.28406647999999995,
+        "median": 0.236323,
+        "p95": 0.564129,
+        "p99": 1.05581,
+        "min": 0.18893,
+        "max": 1.05581,
+        "count": 50
+      },
+      "heapDeltaBytes": -338192
+    }
+  ],
+  "timestamp": "2026-10-28T15:36:50.084Z"
+}

@@ -1,0 +1,15 @@
+{
+  "processedCount": 3191,
+  "total": 3191,
+  "firstStopCounts": {
+    "VALIDATOR_BLOCKED": 1655,
+    "PARSER_BLOCKED": 673,
+    "POLICY_BLOCKED": 3,
+    "DRIVER_BLOCKED": 0,
+    "TIMEOUT_ABORTED": 0,
+    "EXECUTED_CLEAN": 841,
+    "CRASH_ERROR": 19
+  },
+  "skippedCount": 0,
+  "executedAttackCount": 231
+}

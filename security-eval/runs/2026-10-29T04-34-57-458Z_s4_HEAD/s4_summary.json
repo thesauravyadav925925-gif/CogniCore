@@ -1,0 +1,12 @@
+{
+  "suite": "S4",
+  "rung": "HEAD",
+  "dryRun": true,
+  "valid": null,
+  "runDir": "/home/eshangoyal/CogniCore/security-eval/runs/2026-10-29T04-34-57-458Z_s4_HEAD",
+  "note": "DRY_RUN — nothing executed; preflight waived; counts not reconciled by design.",
+  "totals": {
+    "partAQueryExecutions": 14,
+    "partBQueries": 10
+  }
+}

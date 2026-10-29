@@ -16,8 +16,9 @@
     "axios": "^1.7.7",
     "bcryptjs": "^3.0.3",
     "better-sqlite3": "^12.11.1",
+    "canvas": "^3.2.3",
     "cors": "^2.8.5",
-    "csv-parse": "^5.5.6",
+    "csv-parse": "^7.0.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.3",
@@ -26,20 +27,24 @@
     "multer": "^1.4.5-lts.1",
     "mysql2": "^3.24.4",
     "node-sql-parser": "^4.18.0",
-    "pdfjs-dist": "^3.11.174",
+    "pdfjs-dist": "^6.4.299",
     "pdfkit": "^0.20.2",
     "pg": "^8.23.0",
-    "uuid": "^9.0.1",
-    "xlsx": "^0.18.5"
+    "tar": "^7.5.22",
+    "uuid": "^14.0.3",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-latest/xlsx-latest.tgz"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
   },
   "optionalDependencies": {
-    "nodemailer": "^6.9.14"
+    "nodemailer": "^10.2.1"
   },
   "allowScripts": {
     "better-sqlite3@11.10.0": true,
     "canvas@2.11.2": true
+  },
+  "overrides": {
+    "@mapbox/node-pre-gyp": {}
   }
 }

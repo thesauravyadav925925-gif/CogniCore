@@ -46,7 +46,7 @@ const PART_B_EXPECTED = 10; // PREREG_S4 §6
 function extractSchema(db) {
   const tableNames = db.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%'").all().map((r) => r.name);
   const tables = tableNames.map((name) => {
-    const cols = db.prepare(`PRAGMA table_info("${String(name).replace(/"/g, '""')})`).all().map((c) => ({
+    const cols = db.prepare(`PRAGMA table_info("${String(name).replace(/"/g, '""')}")`).all().map((c) => ({
       name: c.name, type: c.type, nullable: !c.notnull, primaryKey: Boolean(c.pk),
     }));
     return { name, columns: cols };
@@ -272,7 +272,7 @@ async function runS4Suite(opts = {}) {
           ...[...q.sql.matchAll(/\bFROM\s+"?([A-Za-z_][A-Za-z0-9_]*)"?/gi)].map((m) => m[1]),
           ...[...q.sql.matchAll(/\bJOIN\s+"?([A-Za-z_][A-Za-z0-9_]*)"?/gi)].map((m) => m[1]),
         ];
-        const snapshotTables = [...new Set(tableRefs.filter(Boolean))];
+        const snapshotTables = [...new Set([...tableRefs.filter(Boolean), ...(declarations.fkDerivedPurges || []).flatMap((fk) => [fk.table, fk.refTable]), ...(policy.rowFilters || []).map((f) => f.table)])];
         const snapshot = buildPurgedSnapshot(sb.dbPath, {
           rowFilters: policy.rowFilters || [],
           fkDerivedPurges: declarations.fkDerivedPurges || [],
